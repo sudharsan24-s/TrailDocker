@@ -1,5 +1,5 @@
 FROM openjdk
 WORKDIR /app
 COPY . /app
-RUN javac Myprog.java
-CMD ["java" , "MyProg"]
+RUN javac myprog.java
+CMD ["java" , "myprog"]
