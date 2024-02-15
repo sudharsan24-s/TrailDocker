@@ -1,4 +1,4 @@
-FROM Myprog
+FROM openjdk
 WORKDIR /app
 COPY . /app
 RUN javac Myprog.java
